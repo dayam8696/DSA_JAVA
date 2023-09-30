@@ -1,4 +1,4 @@
-package com.dayam;
+package basics;
 
 public class Primitives {
     public static void main(String[] args) {

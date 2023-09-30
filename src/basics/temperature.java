@@ -1,4 +1,4 @@
-package com.dayam;
+package basics;
 
 import java.util.Scanner;
 
