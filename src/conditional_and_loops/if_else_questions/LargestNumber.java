@@ -11,14 +11,19 @@ public class LargestNumber {
         int b = in.nextInt();
         int c = in.nextInt();
 
-        int max =  a;
-        if (b>max){
-          max =b;
-        }
-        if (c>max){
-        max = c;
+//        int max =  a;
+//        if (b>max){
+//          max =b;
+//        }
+//        if (c>max){
+//        max = c;
+//
+//        }
+//        System.out.println(max);
 
-        }
+        // same question using Math.max
+
+        int max = Math.max(c,Math.max(a,b));
         System.out.println(max);
     }
 }
