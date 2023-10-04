@@ -18,6 +18,18 @@ public class Scope {
         }
         System.out.println(a);
         System.out.println(name);
+
+
+        // scoping in for loops
+        for (int i = 0; i < 4; i++) {
+//            System.out.println(i);
+            int num = 90;
+            a = 10000;
+        }
+        System.out.println();
     }
+    }
+
+
 }
 
