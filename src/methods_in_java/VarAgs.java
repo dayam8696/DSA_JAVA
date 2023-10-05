@@ -10,7 +10,7 @@ public class VarAgs {
 
     // multiple arguments
     static void multiple(int a , int b , String...v){
-        System.out.println(v);
+        System.out.println(Arrays.toString(v));
     }
     static void fun(int...v){
         System.out.println(Arrays.toString(v));
