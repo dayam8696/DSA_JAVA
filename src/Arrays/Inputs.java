@@ -1,0 +1,34 @@
+package Arrays;
+
+import java.util.Scanner;
+
+public class Inputs {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        int [] arr = new int[5];
+        arr[0] = 55;
+        arr[1] = 36;
+        arr[2] = 93;
+        arr[3] = 54;
+        arr[4] = 90;
+
+//        // printing an Array
+//        for (int i = 0; i < 5; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+
+        // taking in input from user
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = in.nextInt();
+
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.printf(arr[i] + " ");
+
+        }
+
+        // Using inhance for looo
+
+    }
+}
