@@ -1,5 +1,6 @@
 package Arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Inputs {
@@ -34,6 +35,9 @@ public class Inputs {
             System.out.print(num + " ");// here num represent the element in array
 
         }
+
+        //VERY SIMPLE WAY TO PRINT ARRAYS IN JAVA IS WITHOUT USING FOR LOOP:
+        System.out.println(Arrays.toString(arr));
 
     }
 }
