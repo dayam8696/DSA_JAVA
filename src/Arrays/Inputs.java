@@ -36,7 +36,7 @@ public class Inputs {
 
         }
 
-        //VERY SIMPLE WAY TO PRINT ARRAYS IN JAVA IS WITHOUT USING FOR LOOP:
+        //VERY SIMPLE WAY TO PRINT ARRAYS IN JAVA IS WITHOUT USING FOR LOOP in one line :
         System.out.println(Arrays.toString(arr));
 
     }
