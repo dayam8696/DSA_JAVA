@@ -9,7 +9,7 @@ public class ArmstrongNumber {
        // System.out.println(amsno(n));
         for (int i= 100 ;i<1000 ; i++){
             if (amsno(i))
-            System.out.println(i);
+                System.out.println(i);
         }
     }
 
