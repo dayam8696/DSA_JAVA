@@ -28,7 +28,12 @@ public class Inputs {
 
         }
 
-        // Using inhance for looo
+        // Using inhance for loop  to print element of an arrays
+
+        for (int num :arr ){// for every element in the array print the element
+            System.out.print(num + " ");// here num represent the element in array
+
+        }
 
     }
 }
