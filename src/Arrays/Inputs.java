@@ -12,6 +12,8 @@ public class Inputs {
         arr[2] = 93;
         arr[3] = 54;
         arr[4] = 90;
+        //excessing one particular element from array -
+
 
 //        // printing an Array
 //        for (int i = 0; i < 5; i++) {
