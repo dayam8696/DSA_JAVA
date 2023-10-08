@@ -13,6 +13,7 @@ public class Inputs {
         arr[3] = 54;
         arr[4] = 90;
         //excessing one particular element from array -
+        System.out.println(arr[4]);
 
 
 //        // printing an Array
