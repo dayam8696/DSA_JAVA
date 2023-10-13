@@ -12,6 +12,7 @@ public class Linear_Searching {
         if(arr.length==0){
             return -1;
         }
+        // searching element
        for (int index = 0; index < arr.length; index++) {
            int element = arr[index];
            if (element==target){
