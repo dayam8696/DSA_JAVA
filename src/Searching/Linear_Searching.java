@@ -6,7 +6,7 @@ public class Linear_Searching {
         int ans = Linear_Search(arr , 34);
         boolean ans2 = LinearSearch(arr , 34);
         System.out.println("Element found at Index no : " +ans);
-        System.out.println("Element found : " +ans2);
+        System.out.println("Element found at Index no : " +ans2);
 
     }
 

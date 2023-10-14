@@ -3,7 +3,7 @@ package Searching;
 public class Search_In_String {
     public static void main(String[] args) {
         String str = "Dayam";
-        char target = 'x ';
+        char target = 'm';
         System.out.println(search(str ,target));
 
 
