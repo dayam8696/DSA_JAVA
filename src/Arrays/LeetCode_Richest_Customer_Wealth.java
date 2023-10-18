@@ -1,5 +1,5 @@
 package Arrays;
-
+// LeetCode problem link - https://leetcode.com/problems/richest-customer-wealth/
 public class LeetCode_Richest_Customer_Wealth {
     public static void main(String[] args) {
         int[][] accounts = {{1, 2, 3}, {3, 2, 1}};
