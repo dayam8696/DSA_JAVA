@@ -9,8 +9,10 @@ public class LeetCode_Richest_Customer_Wealth {
 
     static int maxWealth(int[][] accounts) {
         int ans = Integer.MIN_VALUE;
+        //loop 1
         for (int person = 0; person < accounts.length; person++) {
             int sum =0;
+            //loop 2
             for (int account = 0 ;account<accounts[person].length ;account++){
                 sum += accounts[person][account];
             }
