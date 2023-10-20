@@ -1,5 +1,5 @@
 package Arrays;
-
+//Taking string as an array
 import java.util.Arrays;
 import java.util.Scanner;
 
