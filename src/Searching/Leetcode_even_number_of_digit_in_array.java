@@ -1,5 +1,5 @@
 package Searching;
-
+// finding out even no digit in an Array
 public class Leetcode_even_number_of_digit_in_array {
     public static void main(String[] args) {
         int[] nums = {12, 345, 2, 6, 7896};
