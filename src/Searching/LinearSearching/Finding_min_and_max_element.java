@@ -1,4 +1,4 @@
-package Searching;
+package Searching.LinearSearching;
 
 public class Finding_min_and_max_element {
     public static void main(String[] args) {

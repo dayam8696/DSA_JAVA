@@ -1,4 +1,4 @@
-package Searching;
+package Searching.LinearSearching;
 
 public class Search_In_String {
     public static void main(String[] args) {
