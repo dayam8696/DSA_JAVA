@@ -26,7 +26,10 @@ public class Question_Ceiling_of_a_Number {
             }
 
         }
+        // to return the index of that element:
+        return start;
 
+        //
         return arr[start] ;
 
     }
