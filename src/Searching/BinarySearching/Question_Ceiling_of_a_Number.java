@@ -26,11 +26,11 @@ public class Question_Ceiling_of_a_Number {
             }
 
         }
-        // to return the index of that element:
+        // to return the index of that element ceiling of the target:
         return start;
 
-        //
-        return arr[start] ;
+        // to return the value of that element ceiling of the target:
+       // return arr[start] ;
 
     }
 }
