@@ -2,6 +2,7 @@ package Searching.BinarySearching;
 
 public class Question_Ceiling_of_a_Number {
     public static void main(String[] args) {
+        // defining the array
         int[] arr = {2, 3 , 5 ,9,14,16,18};
         int target = 15;
         int ans = ceiling(arr,target);
