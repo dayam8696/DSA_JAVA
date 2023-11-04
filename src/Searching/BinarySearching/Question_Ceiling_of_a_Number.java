@@ -1,5 +1,5 @@
 package Searching.BinarySearching;
-// ceiling problem on leet code
+// ceiling problem on leet code solution
 public class Question_Ceiling_of_a_Number {
     public static void main(String[] args) {
         // defining the array
