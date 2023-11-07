@@ -1,5 +1,9 @@
 package Searching.BinarySearching;
+<<<<<<< HEAD
 //when user inter sorrted array of his choice or need
+=======
+//when user inter sorrted array it will sort accordingly 
+>>>>>>> origin/master
 public class Agnostic_BinarySearch {
     public static void main(String[] args) {
         int[] arr = {2, 4, 6, 9, 11, 33, 45, 66, 78, 89, 99}; // acending order
