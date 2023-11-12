@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class leet_code_problem_34 {
     public static void main(String[] args) {
         int nums[] = {5,7,7,8,8,10};
-        int target = 8;
+        int target = 7;
         int[] ans = (searchRange(nums,target));
         System.out.println(Arrays.toString(ans));
 
