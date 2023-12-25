@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner in =  new Scanner(System.in);
-      //  int n = in.nextInt();
-       // System.out.println(amsno(n));
-        for (int i= 100 ;i<1000 ; i++){
-            if (amsno(i))
-                System.out.println(i);
-        }
+        int n = 153;
+        System.out.println(amsno(n));
+//        for (int i= 100 ;i<1000 ; i++){
+//            if (amsno(i))
+//                System.out.println(i);
+//        }
     }
 
     static boolean amsno(int n ) {
