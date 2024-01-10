@@ -20,5 +20,10 @@ public class Cyclic_sort {
             }
         }
     }
+    static void swap (int [] arr ,int i , int correct){
+        int temp = arr[i];
+        arr[i] = arr[correct];
+        arr[correct] = temp;
+    }
 
 }
