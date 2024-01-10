@@ -27,7 +27,7 @@ public class Insertion_sort {
         int temp = arr[second];
         arr[second] = arr[first];
         arr[first]= temp;
-             //kfnklwnklngklfsngkls
+
 
     }
 }
