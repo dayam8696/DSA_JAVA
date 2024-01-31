@@ -27,6 +27,7 @@ public class LeetCode_Missing_number {
 
         }
         //case 2
+        //returning length
         return arr.length;
     }
 
