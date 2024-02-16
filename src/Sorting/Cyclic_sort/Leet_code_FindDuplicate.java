@@ -5,21 +5,19 @@ public class Leet_code_FindDuplicate {
         int [] arr = {1,3,4,2,2};
         int ans = findduplicate(arr);
         System.out.println(ans);
-
-
     }
 
-    public static int findduplicate(int arr[]){
+    public static int findduplicate(int nums[]){
 
         int i = 0;
-        while (i < arr.length) {
+         while (i < nums.length) {
 
-            if (arr[i] != i + 1) {
-                int correct = arr[i] - 1;
-                if (arr[i] != arr[correct]) {
-                    swap(arr, i , correct);
+            if (nums[i] != i + 1) {
+                int correct = nums[i] - 1;
+                if (nums[i] != nums[correct]) {
+                    swap(nums, i , correct);
                 } else {
-                    return arr[i];
+                    return nums[i];
                 }
             } else {
                 i++;
@@ -36,3 +34,4 @@ public class Leet_code_FindDuplicate {
         arr[second] = temp;
     }
 }
+
