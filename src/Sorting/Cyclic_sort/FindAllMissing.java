@@ -9,8 +9,8 @@ public class FindAllMissing {
 
     public static void main(String[] args) {
         int [] arr = {4,3,2,7,8,2,3,1};
-        findDisappearedNumbers(arr);
-        System.out.println(Arrays.toString(arr));
+      List<Integer> cool =  findDisappearedNumbers(arr);
+        System.out.println(cool);
     }
     public static List<Integer> findDisappearedNumbers(int[] nums) {
         int i = 0;
