@@ -7,6 +7,7 @@ public class FabonacoiSeries {
     }
 
     static int fibo(int n){
+        // base condition
         if (n <2){
             return n;
         }
