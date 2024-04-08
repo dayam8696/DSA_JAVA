@@ -16,4 +16,6 @@ public class Pattern6 {
         }
 
     }
+
+
 }

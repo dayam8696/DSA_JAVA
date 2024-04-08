@@ -10,4 +10,6 @@ public class Pattern1 {
         }
 
     }
+
+
 }
