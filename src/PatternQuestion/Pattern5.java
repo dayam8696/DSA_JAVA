@@ -4,8 +4,10 @@ public class Pattern5 {
     public static void main(String[] args) {
 
 pattern1(4);
+
 pattern2(4);
     }
+
 
 
     private static void pattern1(int n){
