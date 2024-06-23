@@ -24,6 +24,14 @@ public class BinarySearchSquareRoot {
                 start = m + 1;
             }
         }
+        double incr =0.1;
+        for (int i = 0; i < p; i++) {
+            while (root*root<=n){
+                root = root+incr;
+            }
+            root = root - incr;
+            incr = incr/10;
+        }
         return root;
     }
 }
