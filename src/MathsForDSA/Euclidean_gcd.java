@@ -1,3 +1,5 @@
+package MathsForDSA;
+
 public class Euclidean_gcd {
     public static void main(String[] args) {
         int a = 4;
@@ -12,4 +14,7 @@ public class Euclidean_gcd {
       }
         return gcd(b%a,a);
     }
+
+
+
 }
