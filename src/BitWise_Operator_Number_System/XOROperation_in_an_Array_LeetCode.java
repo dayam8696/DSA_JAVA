@@ -1,4 +1,5 @@
 package BitWise_Operator_Number_System;
+//https://leetcode.com/problems/xor-operation-in-an-array/description/
 
 public class XOROperation_in_an_Array_LeetCode {
     public static void main(String[] args) {
