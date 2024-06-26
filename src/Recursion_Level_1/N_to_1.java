@@ -8,7 +8,10 @@ public class N_to_1 {
         if(n==0){
             return;
         }
-       System.out.println(n);
+        // 5-4-3-2-1
+       //System.out.println(n);
         fun(n-1);
+        //1-2-3-4-5
+       System.out.println(n);
    }
 }
