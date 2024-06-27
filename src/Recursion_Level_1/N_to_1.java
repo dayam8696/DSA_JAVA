@@ -2,7 +2,7 @@ package Recursion_Level_1;
 
 public class N_to_1 {
     public static void main(String[] args) {
-            fun(5);
+            fun(10);
     }
    static void fun (int n ){
         if(n==0){
