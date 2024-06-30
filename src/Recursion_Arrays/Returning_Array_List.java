@@ -9,7 +9,7 @@ public class Returning_Array_List {
         System.out.println(ans);
     }
 
-    private static ArrayList<Integer> findAllIndex(int[] arr, int target, int index, ArrayList<Integer> list) {
+     static ArrayList<Integer> findAllIndex(int[] arr, int target, int index, ArrayList<Integer> list) {
         if (index==arr.length){
             return list;
 
