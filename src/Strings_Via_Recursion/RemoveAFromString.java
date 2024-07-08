@@ -1,4 +1,4 @@
-package StringsViaRecursion;
+package Strings_Via_Recursion;
 
 public class RemoveAFromString {
     public static void main(String[] args) {
