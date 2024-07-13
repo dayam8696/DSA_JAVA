@@ -1,5 +1,7 @@
 package BackTracking;
 
+import java.util.ArrayList;
+
 public class Intro_MazeProblem_CountPath {
     public static void main(String[] args) {
         System.out.println(CountPath(3,3));
@@ -14,4 +16,6 @@ public class Intro_MazeProblem_CountPath {
 
         return left+right;
     }
+
+
 }
