@@ -19,6 +19,6 @@ public class MaximumProductofThreeNumbers {
         int product2 = nums[0] * nums[1] * nums[n - 1];
 
         // Return the maximum of the two products
-        return Math.max(product1, product2);
+        return Math.max(product1, product2);///
     }
 }
