@@ -3,10 +3,11 @@ package OOPs_Java;
 public class Constructor {
     public static void main(String[] args) {
             Childern dayam = new Childern();
+            dayam.chnageName("Abuzar");
             dayam.greeting();
-        System.out.println(dayam.rollno);
-        System.out.println(dayam.Name);
-        System.out.println(dayam.Marks);
+//        System.out.println(dayam.rollno);
+//        System.out.println(dayam.Name);
+//        System.out.println(dayam.Marks);
     }
 
 
@@ -16,6 +17,10 @@ public class Constructor {
         float Marks ;
         void greeting(){
             System.out.println("Hello my name is " + this.Name);
+        }
+        void chnageName(String newName ){
+            Name = newName;
+
         }
 
         Childern(){
