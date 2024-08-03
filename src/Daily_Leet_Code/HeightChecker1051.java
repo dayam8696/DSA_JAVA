@@ -5,10 +5,11 @@ import java.util.Arrays;
 public class HeightChecker1051 {
     public static void main(String[] args) {
         int[] heights = {1, 1, 4, 2, 1, 3};
-      //  int result = heightChecker(heights);
+        //  int result = heightChecker(heights);
 
-        System.out.println(result);
+        //  System.out.println(result);
     }
+
     public int heightChecker(int[] heights) {
         // Create a copy of the original array
         int[] expected = heights.clone();
@@ -26,4 +27,5 @@ public class HeightChecker1051 {
         }
 
         return count;
+    }
 }
