@@ -12,7 +12,7 @@ public class TruncateSentence1816 {
         StringBuilder sb = new StringBuilder();
         int index = 0 ;
         while (k!=0){
-            sb.append(words[index] + " ");
+            sb.append(words[index] + "  ");
             index++;
             k--;
         }
