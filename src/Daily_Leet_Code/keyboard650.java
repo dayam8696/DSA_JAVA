@@ -2,7 +2,7 @@ package Daily_Leet_Code;
 
 public class keyboard650 {
     public static void main(String[] args) {
-        int n = 3;
+        int n = 9;
         System.out.println(minSteps(n));
     }
     public static int minSteps(int n) {
