@@ -1,6 +1,6 @@
 package OOPs_Java.Inheritence;
 
-public class BoxPrice {
+public class BoxPrice extends BoxWeight {
     double cost;
 
     BoxPrice () {
