@@ -18,6 +18,16 @@ public void insertFirst(int val){
         }
         size ++;
 }
+
+public void display(){
+        Node temp = head;
+        while (temp!= null){
+            System.out.printf(temp.val + "->");
+            temp= temp.next;
+        }
+    System.out.println("END");
+
+}
     private class Node {
         private int val;
         private Node next;
