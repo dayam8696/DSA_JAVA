@@ -11,9 +11,13 @@ public class Main {
         list.insertFirst(8);
         list.insertFirst(9);
         list.insertInBetween(20,3);
-
-
         list.display();
+        //list.deleteFirst();
+        //list.display();
+        list.deleteLast();
+        list.display();
+
+
 
 //        list.insertLast(3);
 //        list.insertLast(4);

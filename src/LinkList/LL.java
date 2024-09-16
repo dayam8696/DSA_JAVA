@@ -47,6 +47,32 @@ public void insertInBetween(int val , int index){
     temp.next= node;
     size++;
 }
+
+public void deleteFirst(){
+        int val = head.val;
+        head = head.next;
+        if (head==null){
+            tail= null;
+
+        }
+        size--;
+    System.out.println(val);
+}
+    public void deleteLast(){
+        int val = tail.val;
+        Node temp = head;
+        for (int i = 1; i <size-2; i++) {
+            temp= temp.next;
+        }
+        tail = temp.next;
+        tail= tail.next = null;
+        if (head==null){
+            tail= null;
+
+        }
+        size--;
+        System.out.println(val);
+    }
 public void display(){
         Node temp = head;
         while (temp!= null){
