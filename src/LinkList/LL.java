@@ -73,6 +73,27 @@ public void deleteFirst(){
         size--;
         System.out.println(val);
     }
+
+    public void deleteInBetween(int index){
+        if (index==0){
+            deleteFirst();
+            return;
+        }
+        if (index==size){
+            deleteLast();
+            return;
+        }
+
+        Node temp = head;
+        for (int i = 1; i < index; i++) {
+            temp = temp.next;
+        }
+       temp.next = temp.next.next;
+        size--;
+        System.out.println("END");
+
+
+    }
 public void display(){
         Node temp = head;
         while (temp!= null){
