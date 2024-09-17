@@ -27,7 +27,12 @@ public class Main {
         dlist.insertFirst(50);
         dlist.insertFirst(60);
         dlist.insertFirst(70);
+        dlist.insertLast(40);
+        dlist.insertLast(90);
         dlist.display();
+
+
+
 
 
 
