@@ -19,17 +19,28 @@ public class Main {
 //        list.deleteInBetween(3);
 //        list.display();
 
-        DLL dlist = new DLL();
-        dlist.insertFirst(10);
-        dlist.insertFirst(20);
-        dlist.insertFirst(30);
-        dlist.insertFirst(40);
-        dlist.insertFirst(50);
-        dlist.insertFirst(60);
-        dlist.insertFirst(70);
-        dlist.insertLast(40);
-        dlist.insertInBetween(120 , 50);
-        dlist.display();
+//        DLL dlist = new DLL();
+//        dlist.insertFirst(10);
+//        dlist.insertFirst(20);
+//        dlist.insertFirst(30);
+//        dlist.insertFirst(40);
+//        dlist.insertFirst(50);
+//        dlist.insertFirst(60);
+//        dlist.insertFirst(70);
+//        dlist.insertLast(40);
+//        dlist.insertInBetween(120 , 50);
+//        dlist.display();
+
+        CLL cllist = new CLL();
+        cllist.insert(10);
+        cllist.insert(20);
+        cllist.insert(30);
+        cllist.insert(40);
+        cllist.insert(50);
+        cllist.insert(60);
+        cllist.display();
+
+
 
 
 
