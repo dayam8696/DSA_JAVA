@@ -39,6 +39,8 @@ public class Main {
         cllist.insert(50);
         cllist.insert(60);
         cllist.display();
+        cllist.delete(40);
+        cllist.display();
 
 
 
