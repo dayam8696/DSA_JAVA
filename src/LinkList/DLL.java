@@ -34,7 +34,23 @@ public class DLL {
         last.next = node;
         node.prev = last;
     }
+public void insertInBetween(int val , int point){
+        Node node = new Node(val);
+        Node temp = head;
 
+        while (temp!=null){
+            temp = temp.next;
+            if (temp.val==point){
+                node.next = temp.next;
+                temp.next = node;
+                node.prev = temp;
+                temp.next.prev = node;
+                break;
+            }
+
+        }
+
+}
 
     public void display(){
         Node node = head;
