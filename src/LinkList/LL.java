@@ -116,4 +116,33 @@ public void display(){
             this.next = next;
         }
     }
+ public void removeDuplicates(){
+        Node node = head;
+        while (node.next!=null){
+            if (node.val==node.next.val){
+                node.next = node.next.next;
+                size--;
+            }
+            else {
+                node= node.next;
+            }
+        }
+        tail=node;
+        tail.next=null;
+ }
+
+    public static void main(String[] args) {
+        LL list = new LL();
+        list.insertLast(10);
+        list.insertLast(10);
+        list.insertLast(20);
+        list.insertLast(20);
+        list.insertLast(40);
+        list.insertLast(50);
+        list.display();
+        list.removeDuplicates();
+        list.display();
+    }
+
+
 }
