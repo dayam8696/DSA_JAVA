@@ -130,18 +130,56 @@ public void display(){
         tail=node;
         tail.next=null;
  }
+// Question 21 (LeetCode) Merge two linklist
+    public static LL merge (LL first , LL second){
+        Node f = first.head;
+        Node s = second.head;
 
+        LL ans = new LL();
+
+      while (f != null && s != null){
+          if (f.val < s.val){
+              ans.insertLast(f.val);
+              f= f.next;
+          }else {
+              ans.insertLast(s.val);
+              s= s.next;
+          }
+      }
+      while (f !=null){
+          ans.insertLast(f.val);
+          f = f.next;
+      }
+        while (s !=null){
+            ans.insertLast(s.val);
+            s = s.next;
+        }
+        return ans;
+    }
     public static void main(String[] args) {
-        LL list = new LL();
-        list.insertLast(10);
-        list.insertLast(10);
-        list.insertLast(20);
-        list.insertLast(20);
-        list.insertLast(40);
-        list.insertLast(50);
-        list.display();
-        list.removeDuplicates();
-        list.display();
+ //      LL list = new LL();
+//        list.insertLast(10);
+//        list.insertLast(10);
+//        list.insertLast(20);
+//        list.insertLast(20);
+//        list.insertLast(40);
+//        list.insertLast(50);
+//        list.display();
+//        list.removeDuplicates();
+//        list.display();
+        LL first = new LL();
+        LL second = new LL();
+
+        first.insertLast(1);
+        first.insertLast(2);
+        first.insertLast(4);
+
+        second.insertLast(1);
+        second.insertLast(3);
+        second.insertLast(4);
+
+       LL ans = LL.merge(first,second);
+       ans.display();
     }
 
 
