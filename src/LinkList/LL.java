@@ -156,6 +156,9 @@ public void display(){
         }
         return ans;
     }
+
+    // question 141 detecting cycle in linklist
+
     public static void main(String[] args) {
  //      LL list = new LL();
 //        list.insertLast(10);
