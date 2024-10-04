@@ -14,10 +14,14 @@ public class InterviewQuestions {
         }
     }
 
-
+//leet code question - https://leetcode.com/problems/middle-of-the-linked-list/
     public ListNode middleNode(ListNode head) {
         ListNode s = head;
         ListNode f = head;
-        if
+        if(f!=null && f.next!=null){
+            s = s.next;
+            f = f.next;
+        }
+        return s;
     }
 }
