@@ -157,7 +157,25 @@ public void display(){
         return ans;
     }
 
-    // question 141 detecting cycle in linklist
+ // Reverse the linklist
+    public void reverse(){
+        if (size>2){
+            return;
+        }
+        Node previous = null;
+        Node present = head;
+        Node next = present.next;
+
+        while (present!= null){
+            present.next = previous;
+            previous = present;
+            if (next!=null){
+            next = next.next;
+        }
+
+    }
+       head = previous;
+    }
 
     public static void main(String[] args) {
  //      LL list = new LL();
