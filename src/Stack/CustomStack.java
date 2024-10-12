@@ -21,12 +21,13 @@ public class CustomStack {
     }
     public int peek() throws Exception {
         if (isEmpty()){
-            if (isEmpty()){
+
                 throw new Exception ("Cannot peek from an empty stack");
             }
-        }
         return data[ptr];
-    }
+        }
+
+
     public boolean push(int item){
         if (isFull()){
             System.out.println("Stack is full");
