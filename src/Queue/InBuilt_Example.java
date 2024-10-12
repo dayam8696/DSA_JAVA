@@ -9,12 +9,12 @@ public class InBuilt_Example {
 
 
         queue.add(15);
-        queue.add(15);
-        queue.add(15);
-        queue.add(15);
-        queue.add(15);
-        queue.add(15);
-        System.out.println(queue);
+        queue.add(6);
+        queue.add(56);
+        queue.add(78);
+        queue.add(35);
+        queue.add(80);
+        System.out.println(queue.peek());
     }
 
 
