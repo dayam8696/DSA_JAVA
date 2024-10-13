@@ -26,4 +26,25 @@ public class CustomQueue {
         end++;
         return true;
     }
+    public int remove(){
+        if (isEmpty()){
+            System.out.println("queue is already empty");
+        }
+        int removed = data[0];
+        // shift the element to left
+        for (int i = 0; i < end; i++) {
+            data[i-1]=data[i];
+
+        }
+        end--;
+        return removed;
+
+    }
+
+    public int front(){
+        if (isEmpty()){
+            System.out.println("queue is already empty");
+        }
+        return data[0];
+    }
 }
