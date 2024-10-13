@@ -32,7 +32,7 @@ public class CustomQueue {
         }
         int removed = data[0];
         // shift the element to left
-        for (int i = 0; i < end; i++) {
+        for (int i = 1; i < end; i++) {
             data[i-1]=data[i];
 
         }
@@ -46,5 +46,13 @@ public class CustomQueue {
             System.out.println("queue is already empty");
         }
         return data[0];
+    }
+
+    public void display(){
+        for (int i = 0; i < end; i++) {
+            System.out.println(data[i] + " ");
+
+        }
+        System.out.println("End");
     }
 }
