@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class QueueMain {
     public static void main(String[] args) {
-        CustomQueue queue = new CustomQueue(5);
+        // CustomQueue queue = new CustomQueue(5);
+        CircularQueue queue = new CircularQueue(5);
         queue.insert(54);
         queue.insert(45);
         queue.insert(78);
@@ -12,13 +13,13 @@ public class QueueMain {
         queue.insert(32);
 
         queue.display();
-
-        queue.remove();
-        queue.remove();
-        queue.remove();
-        queue.remove();
-
+        System.out.println(queue.remove());
         queue.display();
+
+
+
+
+
 
 
 
