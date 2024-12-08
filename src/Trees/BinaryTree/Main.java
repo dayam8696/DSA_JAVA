@@ -9,10 +9,11 @@ public class Main {
         Scanner scanner =new Scanner(System.in);
         BinaryTree tree = new BinaryTree();
         tree.populate(scanner);
-        tree.prettyDisplay();
-        tree.preOrder();
-        tree.inOrder();
-        tree.postOrder();
+        //tree.prettyDisplay();
+        tree.display();
+//        tree.preOrder();
+//        tree.inOrder();
+//        tree.postOrder();
 //        BST tree = new BST();
 //        int [] nums = {5,4,1,8,9,2,7,10,6,3};
 //        tree.populate(nums);

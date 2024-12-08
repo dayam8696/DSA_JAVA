@@ -3,9 +3,11 @@ package PatternQuestion;
 public class Pattern5 {
     public static void main(String[] args) {
 
-pattern1(4);
+//pattern1(4);
+//
+//pattern2(4);
 
-pattern2(4);
+        pattern4(4);
     }
 
 
@@ -33,6 +35,18 @@ pattern2(4);
             System.out.println();
         }
     }
-
+    private static void pattern4(int n){
+        char ch = 'A';
+        for (int row = 1; row<=n;row++){
+            for (int sp = 1 ; sp<=n-row;sp++){
+                System.out.printf(" ");
+            }
+            for (int col = 1 ; col<=row ;col++){
+                System.out.print(ch+" ");
+                //ch++;
+            }
+            System.out.println();
+        }
+    }
     }
 

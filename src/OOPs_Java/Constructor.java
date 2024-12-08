@@ -3,7 +3,7 @@ package OOPs_Java;
 public class Constructor {
     public static void main(String[] args) {
             Childern dayam = new Childern();
-            dayam.chnageName("Abuzar");
+          //  dayam.chnageName("Abuzar");
             dayam.greeting();
 //        System.out.println(dayam.rollno);
 //        System.out.println(dayam.Name);
