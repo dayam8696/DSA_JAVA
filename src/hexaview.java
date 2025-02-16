@@ -1,20 +1,25 @@
 public class hexaview {
-    public static void main(String[] args) {
-            int n = 121;
-            int original = n;
-            int ans = 0;
-            while(n>0){
-                int res = n%10;
-                n= n/10;
-                ans = ans*10+res;
+    public static int tilingProblem(int n) {// 2 x 1 (floor size)
 
-            }
-            if(ans==original){
-                System.out.println("its plaindrom number");
-            }
-            else {
-                System.out.println("its not");
-            }
+        // base case
+        if (n == 0 || n == 1) {
+            return 1;
         }
+        // kaam
+        // vertical
+        int fnm1 = tilingProblem(n - 1);
+
+        // horizontal
+        int fnm2 = tilingProblem(n - 2);
+
+        // ways
+        int totalways = fnm1 + fnm2;
+        return totalways;
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println(tilingProblem(4));
+    }
     }
 
