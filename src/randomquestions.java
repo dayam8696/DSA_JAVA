@@ -1,43 +1,24 @@
 import java.util.Arrays;
 
 public class randomquestions {
-    public static boolean check(int[] arr1,int[] arr2) {
-        if (arr1.length!=arr2.length){
-            return false;
-        }else {
-            Arrays.sort(arr1);
-            Arrays.sort(arr2);
-            for(int i = 0; i < arr1.length; i++){
-                if(arr1[i] != arr2[i]){
-                    return false;
-                }
-            }
+
+    public static int[] shuffle(int[] nums, int n) {
+        int[] result = new int[2 * n];
+
+        for (int i = 0; i < n; i++) {
+            result[2 * i] = nums[i];
+            result[2 * i + 1] = nums[i + n];
         }
 
-
-//        boolean result = false;
-//        for (int i = 0; i < arr1.length; i++) {
-//            for (int j = 0; j < arr2.length; j++) {
-//                int array1 = arr1[i];
-//                if (array1!=arr2[j]){
-//                    result = false;
-//                }
-//                else {
-//                    result = true;
-//                }
-//
-//            }
-//        }
-
-
-        return true;
-
+return result;
     }
 
+
+
     public static void main(String[] args) {
-        int [] arr1 = {1,2,2,2};
-        int [] arr2 = {2,2,2,1};
-        System.out.println(check(arr1,arr2));
+        int []nums = {2,5,1,3,4,7};
+        int n =3;
+        System.out.println(Arrays.toString(shuffle(nums,n)));
     }
 
 
