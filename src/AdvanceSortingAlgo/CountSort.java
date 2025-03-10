@@ -1,6 +1,8 @@
 package AdvanceSortingAlgo;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CountSort {
     public static void countSort(int[] array) {
@@ -35,8 +37,39 @@ public class CountSort {
 
 
     public static void main(String[] args) {
-        int[] arr = {6, 3, 10, 9, 2, 4, 9, 7};
-        countSort(arr);
-        System.out.println(Arrays.toString(arr));
+        int[] arr1 = {6, 3, 10, 9, 2, 4, 9, 7};
+        int[] arr2 = {6, 3, 10, 9, 2, 4, 9, 7};
+        countSort(arr1);
+        countSortHash(arr2);
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
     }
+
+    //CountSort Using HashMap
+
+    public static void countSortHash(int[] arr) {
+        if(arr == null || arr.length <= 1) {
+            return;
+        }
+
+        int max = Arrays.stream(arr).max().getAsInt();
+        int min = Arrays.stream(arr).min().getAsInt();
+
+        Map<Integer, Integer> countMap = new HashMap<>();
+
+        for(int num : arr) {
+            countMap.put(num, countMap.getOrDefault(num, 0) + 1);
+        }
+
+        int index = 0;
+        for(int i=min; i<=max; i++) {
+            int count = countMap.getOrDefault(i, 0);
+            for(int j=0; j < count; j++) {
+                arr[index] = i;
+                index++;
+            }
+        }
+
+    }
+
 }
